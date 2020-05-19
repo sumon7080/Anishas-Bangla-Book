@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="somon.islam.anishasbanglabook.FruitActivity"
+    android:background="@drawable/backgroundimage">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                >
+                <ImageView
+                    android:id="@+id/fruOne"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/am"
+                    android:layout_weight="1"
+                    android:layout_margin="5dp"
+                    />
+                <ImageView
+                    android:id="@+id/fruTwo"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/jam"
+                    android:layout_weight="1"
+                    android:layout_margin="5dp"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <ImageView
+                    android:id="@+id/fruThree"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/kathal"
+                    android:layout_weight="1"
+                    android:layout_margin="5dp"
+                    />
+                <ImageView
+                    android:id="@+id/fruFour"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/lichu"
+                    android:layout_weight="1"
+                    android:layout_margin="5dp"
+                    />
+
+
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                >
+
+
+                <ImageView
+                    android:id="@+id/fruFive"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/apple"
+                    android:layout_weight="1"
+                    android:layout_margin="5dp"
+                    />
+                <ImageView
+                    android:id="@+id/fruSix"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/komola"
+                    android:layout_weight="1"
+                    android:layout_margin="5dp"
+                    />
+
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:weightSum="2">
+                <ImageView
+                    android:id="@+id/fruSeven"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/anghur"
+                    android:layout_weight="1"
+                    android:layout_margin="5dp"
+                    />
+
+
+                <ImageView
+                    android:id="@+id/fruEight"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/tormuj"
+                    android:layout_weight="1"
+                    android:layout_margin="5dp"
+                    />
+            </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+            <ImageView
+                android:id="@+id/fruNine"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/pepe"
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                />
+
+
+            <ImageView
+                android:id="@+id/fruTen"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/anaros"
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                />
+        </LinearLayout>
+
+
+
+
+
+</LinearLayout>
+
+
+
+
+    </ScrollView>
+
+</LinearLayout>

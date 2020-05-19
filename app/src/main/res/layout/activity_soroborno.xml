@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="somon.islam.anishasbanglabook.SorobornoActivity"
+    android:orientation="vertical"
+    android:weightSum="7"
+    android:background="@drawable/backgroundimage"
+    >
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-7461215501470288/2231254660"
+        android:layout_gravity="center"
+        >
+    </com.google.android.gms.ads.AdView>
+    <ImageView
+        android:id="@+id/recicle"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_weight="3"
+        android:background="@drawable/backgroundimage"
+        >
+
+    </ImageView>
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:weightSum="4"
+                >
+
+
+
+                <ImageView
+                    android:id="@+id/soro"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/one"
+                    android:cropToPadding="true"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    />
+                <ImageView
+                    android:id="@+id/soraiya"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/two"
+                    android:cropToPadding="true"
+                    android:layout_weight="1"
+                    android:layout_margin="5dp"
+                    />
+                <ImageView
+                    android:id="@+id/rosi"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/three"
+                    android:cropToPadding="true"
+                    android:layout_weight="1"
+                    android:layout_margin="5dp"
+                    />
+
+                <ImageView
+                    android:id="@+id/dirghi"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/four" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:weightSum="4"
+                >
+                <ImageView
+                    android:id="@+id/rosu"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/five"
+                    android:layout_weight="1"
+                    android:layout_margin="5dp"
+                    />
+                <ImageView
+                    android:id="@+id/dirgu"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/six"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    />
+                <ImageView
+                    android:id="@+id/rosuli"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/seven"
+                    android:layout_weight="1"
+                    android:layout_margin="5dp"
+                    />
+                <ImageView
+                    android:id="@+id/aaa"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/eight"
+                    android:layout_weight="1"
+                    android:layout_margin="5dp"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:weightSum="3"
+                >
+                <ImageView
+                    android:id="@+id/oi"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/nine"
+                    android:layout_weight="1"
+                    android:layout_margin="10dp"
+
+                    />
+                <ImageView
+                    android:id="@+id/ooo"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/ten"
+                    android:layout_weight="1"
+                    android:layout_margin="10dp"
+                    />
+                <ImageView
+                    android:id="@+id/oou"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/elev"
+                    android:layout_weight="1"
+                    android:layout_margin="10dp"
+
+                    />
+
+
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+

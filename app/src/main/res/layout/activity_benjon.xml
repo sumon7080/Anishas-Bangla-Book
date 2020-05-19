@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="11"
+    tools:context="somon.islam.anishasbanglabook.BenjonActivity"
+    android:background="@drawable/backgroundimage"
+    >
+
+
+    <ImageView
+        android:id="@+id/rebal"
+        android:layout_width="match_parent"
+        android:layout_height="259dp"
+        android:layout_gravity="center"
+
+        android:layout_weight="3"
+        android:background="@drawable/backgroundimage">
+
+    </ImageView>
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="8"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:orientation="horizontal"
+            android:weightSum="5"
+            >
+
+
+            <ImageView
+                android:id="@+id/benOne"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/ka"
+                android:layout_weight="1"
+                />
+            <ImageView
+                android:id="@+id/benTwo"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/kb"
+                android:layout_weight="1"
+                />
+            <ImageView
+                android:id="@+id/benThree"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/kc"
+                android:layout_weight="1"
+                />
+            <ImageView
+                android:id="@+id/benFour"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/kd"
+                android:layout_weight="1"
+                />
+
+
+            <ImageView
+                android:id="@+id/benFive"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/ke"
+                android:layout_weight="1"
+                />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:orientation="horizontal"
+            android:weightSum="5"
+            >
+
+            <ImageView
+                android:id="@+id/benSix"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/kf"
+                android:layout_weight="1"
+                />
+            <ImageView
+                android:id="@+id/benSeven"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/kg"
+                android:layout_weight="1"
+                />
+
+            <ImageView
+                android:id="@+id/benEight"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/kh"
+                android:layout_weight="1"
+                />
+            <ImageView
+                android:id="@+id/benNine"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/ki"
+                android:layout_weight="1"
+                />
+            <ImageView
+                android:id="@+id/benTen"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/kj"
+                android:layout_weight="1"
+                />
+
+
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:orientation="horizontal"
+            android:weightSum="5"
+            >
+            <ImageView
+                android:id="@+id/benEle"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/kk"
+                android:layout_weight="1"
+                />
+
+
+            <ImageView
+                android:id="@+id/benTweleve"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/kl"
+                android:layout_weight="1"
+                />
+            <ImageView
+                android:id="@+id/benThir"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/km"
+                android:layout_weight="1"
+                />
+            <ImageView
+                android:id="@+id/benFou"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/kn"
+                android:layout_weight="1"
+                />
+
+
+            <ImageView
+                android:id="@+id/benFif"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/ko"
+                android:layout_weight="1"
+                />
+
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:orientation="horizontal"
+            android:weightSum="5"
+            >
+
+            <ImageView
+                android:id="@+id/benSi"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/kp"
+                android:layout_weight="1"
+                />
+            <ImageView
+                android:id="@+id/benSe"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/kq"
+                android:layout_weight="1"
+                />
+
+
+            <ImageView
+                android:id="@+id/benEig"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/kr"
+                android:layout_weight="1"
+                />
+            <ImageView
+                android:id="@+id/benNin"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/ks"
+                android:layout_weight="1"
+                />
+            <ImageView
+                android:id="@+id/benTwe"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/kt"
+                android:layout_weight="1"
+                />
+
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:orientation="horizontal"
+            android:weightSum="5"
+            >
+
+            <ImageView
+                android:id="@+id/benTone"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/ku"
+                android:layout_weight="1"
+                />
+
+
+            <ImageView
+                android:id="@+id/benTtwo"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/kv"
+                android:layout_weight="1"
+                />
+            <ImageView
+                android:id="@+id/benTthree"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/kw"
+                android:layout_weight="1"
+                />
+            <ImageView
+                android:id="@+id/benTfour"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/kx"
+                android:layout_weight="1"
+                />
+            <ImageView
+                android:id="@+id/benTfiv"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/ky"
+                android:layout_weight="1"
+                />
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:orientation="horizontal"
+            android:weightSum="5"
+            >
+
+            <ImageView
+                android:id="@+id/benTsix"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/kz"
+                android:layout_weight="1"
+                />
+            <ImageView
+                android:id="@+id/benTsev"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/la"
+                android:layout_weight="1"
+                />
+            <ImageView
+                android:id="@+id/benTeigh"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/lb"
+                android:layout_weight="1"
+                />
+
+
+
+            <ImageView
+                android:id="@+id/benTnine"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/lc"
+                android:layout_weight="1"
+                />
+            <ImageView
+                android:id="@+id/benThirty"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/ld"
+                android:layout_weight="1"
+                />
+
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:orientation="horizontal"
+            android:weightSum="5"
+            >
+
+
+
+            <ImageView
+                android:id="@+id/benthirtyOne"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/le"
+                android:layout_weight="1"
+                />
+            <ImageView
+                android:id="@+id/benthirtyTwo"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/lf"
+                android:layout_weight="1"
+                />
+
+
+            <ImageView
+                android:id="@+id/benthirtyThree"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/lg"
+                android:layout_weight="1"
+                />
+            <ImageView
+                android:id="@+id/benthirtyFour"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/lh"
+                android:layout_weight="1"
+                />
+            <ImageView
+                android:id="@+id/benThirtyFive"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/li"
+                android:layout_weight="1"
+                />
+
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:orientation="horizontal"
+            android:weightSum="4"
+            >
+            <ImageView
+                android:id="@+id/benThirtysix"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/lj"
+                android:layout_weight="1"
+                />
+            <ImageView
+                android:id="@+id/benThirtysev"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/lk"
+                android:layout_weight="1"
+                />
+            <ImageView
+                android:id="@+id/benThirtyeigh"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/ll"
+                android:layout_weight="1"
+                />
+            <ImageView
+                android:id="@+id/benThirtynine"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/lm"
+                android:layout_weight="1"
+                />
+
+
+
+        </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</LinearLayout>

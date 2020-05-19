@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "926127867695",
+    "firebase_url": "https://anishas-bangla-book.firebaseio.com",
+    "project_id": "anishas-bangla-book",
+    "storage_bucket": "anishas-bangla-book.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:926127867695:android:519515a6879b1f6a1303da",
+        "android_client_info": {
+          "package_name": "somon.islam.anishasbanglabook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "926127867695-lb38cseip23jiobhm51qfbb17frcpcql.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD023ep98Yc1Ndv5IYsWrped8vSSXLfmto"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "926127867695-lb38cseip23jiobhm51qfbb17frcpcql.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
